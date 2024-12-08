@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Output & Processing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      line-height: 1.6;
+    }
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Table Output & Processing</h2>
+  <h3>Table 1: Original Data</h3>
+  <table id="table1">
+    <tr>
+      <th>Index #</th>
+      <th>Value</th>
+    </tr>
+    <!-- Table rows will be inserted dynamically -->
+  </table>
+
+  <h3>Table 2: Processed Data</h3>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td>Alpha</td>
+      <td id="alpha"></td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td id="beta"></td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td id="charlie"></td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
